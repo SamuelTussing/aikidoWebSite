@@ -447,4 +447,13 @@ a:hover {
     .row{
         flex-direction: column;
     }
+    .container{
+        display: flex;
+        flex-direction: column;
     }
+    .infos-columns{
+        display: flex;
+        flex-direction: column;
+    }
+}
+    
