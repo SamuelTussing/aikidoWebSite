@@ -430,7 +430,7 @@ a:hover {
       
       /* Lorsque la checkbox est cochée, le menuwrap se translate */
       .menu:checked + .menuwrap {
-        transform: translateX(-300px);
+        transform: translateX(-50%);
         display: block;
       }
       .menu_links{
