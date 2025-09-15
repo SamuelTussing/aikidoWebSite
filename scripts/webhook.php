@@ -85,7 +85,7 @@ try
 	if ($eventHeader === null) {
 		$eventHeader = isset($_SERVER['HTTP_X_GITEA_EVENT']) ? $_SERVER['HTTP_X_GITEA_EVENT'] : null;
 	}
-	if ($eventHeader === 'release') 
+	if ($eventHeader === 'push' ||$eventHeader === 'release') 
 	{
 		// This command will go into your repository and pull the latest changes.
 		$command = "cd $repo_path && git pull origin main 2>&1"; // 2>&1 redirects standard error to standard output
