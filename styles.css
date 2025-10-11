@@ -204,11 +204,24 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
-
 .col {
     flex: 1;
     padding: 1rem;
 }
+
+.rowstretch {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    align-items: center;
+}
+.colstretch img[src$=".svg"]{
+    height: 100%;       /* Füllt die vertikale Höhe des Containers aus */
+    width: auto;        /* Hält das Seitenverhältnis bei (proportional) */
+    max-width: 100%;    /* Stellt sicher, dass es nicht breiter als der Container wird */
+    object-fit: contain;
+}
+
 
 h2 {
     font-size: 2rem;

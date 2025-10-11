@@ -42,7 +42,16 @@
 		    <p>Pour info: le <a href="https://fr.wikipedia.org/wiki/Kimono" style="all:revert">kimono</a> est un vetement d'apparat, en soie, souvent, très haut en couleur, avec des grandes manches, ouvertes sous les aisselles.</p>
                     <br>
                     <p>À partir d’un certain niveau, les pratiquants portent également un hakama, un pantalon-jupe noir ou bleu marine. Symbole de respect et de maturité dans la pratique, le hakama représente aussi les valeurs et les vertus de l’aïkido, telles que le respect, l’humilité et la maîtrise de soi.</p>
-                
+		   <p>Prévoir impérativement des chausses pour pouvoir
+transiter des vestiaires au bas de l'escalier vers le dojo. Traditionellement
+l'on utilise des zori, n'importe quel type de claquettes fait l'affaire.
+ </p>
+ <p>
+Nous rappellons aux pratiquantes féminines que le port d'un soutien-gorge de
+sport correctement ajusté est obligatoire (pour tout sport d'aillieurs) et que
+le non-respect de cette contrainte a une incidence certaine sur l'apparition
+eventuelle d'un cancer du sein. </p>
+
                 </div>
             </div>
         </div>
@@ -98,7 +107,19 @@
                     <h2>LES GRADES</h2>
 		    <p>En aïkido, les grades permettent de suivre l’évolution technique des pratiquants. Ils se divisent en kyu pour les niveaux débutants et intermédiaires, puis en dan à partir de la ceinture noire. Contrairement à d'autres arts martiaux, il n'y a pas de ceintures de couleur pour différencier les niveaux ; seul le hakama, porté à partir du 2<sup>ème</sup> kyu, distingue les pratiquants avancés. Tous les élèves, quel que soit leur grade, s’entraînent ensemble, favorisant ainsi l’entraide et l’apprentissage collectif.</p>
                     <br>
-                    <p>Le passage des grades kyu en aïkido se fait directement au sein de notre association, lors d’une séance annuelle spécialement dédiée. Cette évaluation permet aux pratiquants d’évoluer et de valider leurs connaissances techniques dans un environnement familier. En revanche, pour les grades dan, il est nécessaire de se présenter devant un jury inter-départemental ou régional, garantissant ainsi une reconnaissance officielle et un standard technique plus élevé. Ce système de passage de grades assure une progression structurée tout en respectant les valeurs et traditions de l’aïkido.</p>
+		    <p>Le passage des grades kyu en aïkido se fait directement
+au sein de notre association, selon la <a
+href="https://www.aikido-paul-muller.com/technique/progression-technique-grades-kyu"
+style="all:revert">progressions technique de Paul Muller,
+8<sup>ème</sup>dan</a>, lors d’une séance annuelle spécialement dédiée. Cette
+évaluation permet aux pratiquants d’évoluer et de valider leurs connaissances
+techniques dans un environnement familier. En revanche, pour les grades dan, il
+est nécessaire de se présenter devant un jury inter-départemental ou régional,
+garantissant ainsi une reconnaissance officielle et un standard technique plus
+élevé. Ce système de passage de grades assure une progression structurée tout
+en respectant les valeurs et traditions de l’aïkido.</p>
+
+
                 </div>
                 <div class="col">
                     <img src="./images/grade.jpg" alt="Infos pratiques">
@@ -106,6 +127,27 @@
             </div>
         </div>
     </section>    
+
+<section class="white-bg" id="nomenclature">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>La Nomenclature</h2>
+                <p>L'Aïkido, étant d'origine japonaise, utilise naturellement une <b>nomenclature japonaise</b>. Bien que la compréhension de ces termes ne soit pas toujours obligatoire au quotidien, et que les concepts possèdent des équivalents en français, cette connaissance devient <b>requise</b> lors des passages de grades (notamment les <b>dan</b>).</p>
+                <br>
+                <p>La prononciation japonaise peut être perçue comme difficile pour les francophones, d'autant plus qu'il existe une <b>grande dérive linguistique</b> en France. Cette divergence peut malheureusement compliquer les échanges avec d'autres dojos en Europe ou lors d'un séjour au Japon. C'est pourquoi nous avons compilé un
+                <a href="https://cta.nohkumado.eu/jisho/" style="all:revert">dictionnaire</a> des termes techniques. Il propose, au choix, une conversion <b>texte-vers-parole</b> ainsi que des enregistrements par notre enseignant principal, une experte 7<sup>dan</sup> japonaise et, bientôt, par d'autres locuteurs natifs.
+                </p>
+            </div>
+            <div class="col">
+<a href="https://cta.nohkumado.eu/jisho/" style="all:revert">
+   <?php echo file_get_contents('images/aikido_sound.svg'); ?>
+</a>
+            </div>
+        </div>
+    </div>
+</section>
+
     <?php include 'footer.html'; ?>
     
 </body>
