@@ -2,44 +2,28 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./styles.css" media="screen"/>
     <title>Aikido de la Zorn: l'association</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-		<meta name="TITLE" content="Association d'Aïkido du pays de la Zorn"/>
-		<meta name="DESCRIPTION" content="Site Web associatif du club d'Aïkido de Schwindratzheim"/>
-		<meta name="KEYWORDS" content="Aïkido, aikido, club, association, sport, arts martiaux, Schwindratzheim, Hochfelden"/>
-		<meta name="LANGUAGE" content="FR"/>
-		<meta name="SUBJECT" content="site du club d'Aïkido de Schwindratzheim et environs"/>
-		<meta name="ROBOTS" content="All"/>
-		<meta name="AUTHOR" content="Samuel Tussing,Bruno Boettcher"/>
-		<meta name="OWNER" content="zorn.aikido@gmail.com"/>
-		<meta name="RATING" content="aikido"/>
-		<meta name="ABSTRACT" content="Site Web associatif du club d'Aïkido de Schwindratzheim"/>
-		<meta name="REVISIT-AFTER" content="7 DAYS"/>
-		<meta name="COPYRIGHT" content="LGPL"/>
-		<link rel="Shortcut icon" href="images/logo/aapz_logo.svg" type="image/png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css" media="screen">
+    <meta name="TITLE" content="Association d'Aïkido du pays de la Zorn">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="TITLE" content="Association d'Aïkido du pays de la Zorn">
+    <meta name="DESCRIPTION" content="Site Web associatif du club d'Aïkido de Schwindratzheim">
+    <meta name="KEYWORDS" content="Aïkido, aikido, club, association, sport, arts martiaux, Schwindratzheim, Hochfelden">
+    <meta name="LANGUAGE" content="FR">
+    <meta name="SUBJECT" content="site du club d'Aïkido de Schwindratzheim et environs">
+    <meta name="ROBOTS" content="All">
+    <meta name="AUTHOR" content="Samuel Tussing,Bruno Boettcher">
+    <meta name="OWNER" content="zorn.aikido@gmail.com">
+    <meta name="RATING" content="aikido">
+    <meta name="ABSTRACT" content="Site Web associatif du club d'Aïkido de Schwindratzheim">
+    <meta name="REVISIT-AFTER" content="7 DAYS">
+    <meta name="COPYRIGHT" content="LGPL">
+    <link rel="Shortcut icon" href="images/logo/aapz_logo.svg" type="image/png">
 </head>
 <body>
     <header>
-        <div class="container">
-            <nav>
-                <a href="./index.html">Accueil</a>
-                <a href="./association.html">L'association</a>
-                <a href="./infos.html">Infos pratiques</a>
-                <a href="./ressources.html">Ressources</a>
-            </nav>
-            <input type="checkbox" role="button" aria-label="Display the menu" class="menu">
-            <div class="menuwrap">
-                <div class="menu_links">
-                    <a href="./index.html">Accueil</a>
-                    <a href="./association.html">L'association</a>
-                    <a href="./infos.html">Infos pratiques</a>
-                    <a href="./ressources.html">Ressources</a>
-                </div>
-            </div>
-        </div>
+      <?php include 'header.html'; ?>
     </header>
     <section class="hero" id="accueil">
         <div class="hero-content">
@@ -59,7 +43,7 @@
             </div>
         </div>
     </section>
-    <section class="white-bg" id="infos">
+    <section class="white-bg" id="valeurs">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -72,7 +56,7 @@
             </div>
         </div>
     </section>
-    <section class="gray-bg" id="infos">
+    <section class="gray-bg" id="access">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -93,21 +77,23 @@
         <div class="separator" aria-hidden="true"></div>
         <p>Le dojo est ouvert aux horaires suivants :</p>
         <ul>
-            <li><strong>Mardi :</strong></li>
+            <li><strong>Mardi :</strong>
             <ul>
                 <!--li><strong>Cours enfants :</strong> 18h30 - 20h</li-->
                 <li><strong>Cours adultes :</strong> 20h - 21h30</li>
             </ul>
-            <li><strong>Vendredi :</strong></li>
+            </li>
+            <li><strong>Vendredi :</strong>
             <ul>
                 <li><strong>Cours adultes :</strong> 20h - 21h30</li>
             </ul>
+            </li>
         </ul>
         <p>Tout au long de l'année, des <strong>stages d'Aikido</strong> sont organisés dans la région Grand Est. Ces stages sont une excellente occasion de pratiquer et d'approfondir votre pratique de l'Aikido.</p>
         <p>Nous vous invitons à consulter notre calendrier pour connaître les dates de ces événements.</p>
     
     </section>
-    <section class="white-bg" id="infos">
+    <section class="white-bg" id="membres">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -145,25 +131,7 @@
     </section>
 
     
-    <footer class="footer">
-        <div class="footer-column">
-            <img src="./images/logo_blanc-01.png" alt="Logo" class="logo">
-        </div>
-        <div class="footer-column">
-            <h3>Contact</h3>
-            <p>35, rue de la république
-                67270 Schwindratzheim</p>
-            <p>Tél: 03.88.89.91.02</p>
-            <p>Email: zorn.aikido@gmail.com</p>
-        </div>
-        <div class="footer-column">
-            <h3>Liens utiles</h3>
-            <a href="./index.html">Accueil</a>
-            <a href="./infos.html">À propos</a>
-            <a href="./ressources.html">Ressources</a>
-            <a href="./association.html">L'Association</a>
-        </div>
-    </footer>
+   <?php include 'footer.html'; ?>
     
 </body>
 </html>

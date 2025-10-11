@@ -474,3 +474,4 @@ a:hover {
     }
 }
     
+.visually-hidden{position: absolute; left: -10000px;}
