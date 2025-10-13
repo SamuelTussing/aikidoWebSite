@@ -132,17 +132,17 @@ en respectant les valeurs et traditions de l’aïkido.</p>
     <div class="container">
         <div class="row">
             <div class="col">
+<a href="https://cta.nohkumado.eu/jisho/" style="all:revert">
+   <?php echo file_get_contents('images/aikido_sound.svg'); ?>
+</a>
+            </div>
+            <div class="col">
                 <h2>La Nomenclature</h2>
                 <p>L'Aïkido, étant d'origine japonaise, utilise naturellement une <b>nomenclature japonaise</b>. Bien que la compréhension de ces termes ne soit pas toujours obligatoire au quotidien, et que les concepts possèdent des équivalents en français, cette connaissance devient <b>requise</b> lors des passages de grades (notamment les <b>dan</b>).</p>
                 <br>
                 <p>La prononciation japonaise peut être perçue comme difficile pour les francophones, d'autant plus qu'il existe une <b>grande dérive linguistique</b> en France. Cette divergence peut malheureusement compliquer les échanges avec d'autres dojos en Europe ou lors d'un séjour au Japon. C'est pourquoi nous avons compilé un
                 <a href="https://cta.nohkumado.eu/jisho/" style="all:revert">dictionnaire</a> des termes techniques. Il propose, au choix, une conversion <b>texte-vers-parole</b> ainsi que des enregistrements par notre enseignant principal, une experte 7<sup>dan</sup> japonaise et, bientôt, par d'autres locuteurs natifs.
                 </p>
-            </div>
-            <div class="col">
-<a href="https://cta.nohkumado.eu/jisho/" style="all:revert">
-   <?php echo file_get_contents('images/aikido_sound.svg'); ?>
-</a>
             </div>
         </div>
     </div>
