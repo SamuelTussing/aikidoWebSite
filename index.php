@@ -49,6 +49,35 @@
 				</div>
 			</div>
 		</section>
+		<section class="section" id="stage">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<h2>Stages découverte</h2>
+						<div class="separator"></div>
+						<p>Envie d’échanger autour de la technique, de comparer les approches, ou tout simplement de bouger dans une ambiance conviviale et bienveillante ?
+						Le club Aïkido Zorn vous ouvre les portes de son dojo pour une journée placée sous le signe du partage et de l’ouverture.
+						L’idée est simple : se retrouver sur le tatami pour discuter technique, expérimenter, approfondir, confronter les points de vue avec respect et curiosité. Vous pouvez venir avec vos envies, vos propositions, vos recherches du moment... ou vous laissez porter par la dynamique de la journée.</p>
+						<div class="center">
+						<h3>Les prochaines dates :</h3>
+						<!--dates à définir"> -->
+						<ul class="list">
+          					<li> Samedi 16 novembre 2025 - 14h00 à 18h</li>
+          					<li> Samedi 8 février 2026 - 14h00 à 18h</li>
+          					<li> Samedi 25 avril 2026 - 14h30 à 18h</li>
+        				</ul>
+						<h3>Infos pratiques :</h3>
+						<p>Pour un question d’organisation et de préparation du repas, ce moment de pratique est accessible uniquement sous réservation (limité à 15 personnes).
+						</p>
+						<p><strong>Réservation obligatoire par mail :</strong>  zorn.aikido@gmail.com</p>
+						<p><strong>Adresse :</strong> 35 rue de la Rrépublique 67270 Schwindratzheim</p>
+						<p><strong>Tarif unique :</strong> 15€</p>
+						<p>Le tarif comprend le stage ainsi que la soirée tartes flambées</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 		<section class="gray-bg" id="infos">
 			<div class="container">
 				<div class="row">
